@@ -93,7 +93,7 @@ Combinam duas ou mais condições e retornam um resultado booleano (True ou Fals
 
 
 
-###### **Estruturas Condicionais** 
+##### **Estruturas Condicionais** 
 
 Executa um bloco de código apenas se uma condição for verdadeira, permitindo ao programa tomar diferentes caminhos conforme a situação.
 
@@ -111,7 +111,7 @@ Compara uma variável com múltiplos valores possíveis, executando o bloco corr
 
 
 
-###### **Estruturas de Repetição**
+##### **Estruturas de Repetição**
 
 Executa um bloco de código várias vezes enquanto uma condição for verdadeira ou percorrendo uma sequência de valores.
 
