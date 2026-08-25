@@ -112,7 +112,7 @@ Para criar um projeto no Eclipse:
   ```
 
 - Para printar:
-  Atalho: `Sysio` > Ctrl + espaço > Enter
+  Atalho: `Syso` > Ctrl + espaço > Enter
 
   ```java
   System.out.println("");
