@@ -10,21 +10,17 @@
 
 Sair de:
 
-```
-"arq1.py"
-    # entrada
-        input()
-    # processamento
-    # saída
-        print()
-```
+  "arq1.py"
+      # entrada
+          input()
+      # processamento
+      # saída
+          print()
 
 Para: (POO - Classes)
 
-```
-ClasseMain/aula > classe2 < classe3
-classe4 <> classe5
-```
+  ClasseMain/aula > classe2 < classe3
+  classe4 <> classe5
 
 ### Princípios da orientação a objetos
 
@@ -74,13 +70,12 @@ Cabe ao interpretador Java de cada plataforma de hardware específica assegurar 
 
 ### Estrutura básica de um programa em Java
 
-```java
-public class MeuPrograma {
-    public static void main(String[] args){
-        //seu programa será escrito a partir daqui
-    }
-}
-```
+  java
+  public class MeuPrograma {
+      public static void main(String[] args){
+          //seu programa será escrito a partir daqui
+      }
+  }
 
 - O nome do arquivo Java tem que ser o mesmo nome do `public class nome_arquivo {`
 - `public`, `static`, `void`, `main` só será aprendido em POO. Por enquanto, "abstraia".
@@ -105,48 +100,41 @@ Para criar um projeto no Eclipse:
 - Para começar a escrever:
   Atalho: `main` > Ctrl + espaço > Enter
 
-  ```java
-  public static void main(String[] args) {
-
-  }
-  ```
+    java
+    public static void main(String[] args) {
+  
+    }
 
 - Para printar:
   Atalho: `Syso` > Ctrl + espaço > Enter
 
-  ```java
-  System.out.println("");
-  ```
-
+    java
+    System.out.println("");
+  
 - Para rodar o programa diretamente:
   Atalho: Ctrl + F11
 
 - Para importar a biblioteca de leitura de dados:
 
   Antes do `public class`:
-  ```java
-  import java.util.Scanner;
-  ```
+    java
+    import java.util.Scanner;
 
   Dentro do `public class` e `static`:
-  ```java
-  Scanner scanner = new Scanner(System.in);
-  ```
+    java
+    Scanner scanner = new Scanner(System.in);
 
   Final do `public class` e `static`:
-  ```java
-  scanner.close();
-  ```
+    java
+    scanner.close();
 
 - Para leitura de dados:
 
-  ```java
-  System.out.println("Digite X: ");
-  tipoVar nomeVar = scanner.nextTipoVar();
-  ```
+    java
+    System.out.println("Digite X: ");
+    tipoVar nomeVar = scanner.nextTipoVar();
 
 - Para printar uma variável:
 
-  ```java
-  System.out.println(""+nomeVar);
-  ```
+    java
+    System.out.println(""+nomeVar);
