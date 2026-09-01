@@ -24,11 +24,6 @@ public class EleicaoIfElse {
 			System.out.println("Voto facultativo.");
 		}
 		
-		
-		
-		
-		
-		
 		scanner.close();
 	}
 
