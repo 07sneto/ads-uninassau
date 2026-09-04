@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>BootStrap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Container-fluid : ocupa toda a largura da tela e deixa um espaço na borda-->
+    <div class="container-fluid"> 
+        <h1>Hello World</h1>
+    </div>
+    
+    <!--img-thubnail : Cria uma borda ao redor da imagem-->
+    <img class="img-thumbnail" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXrjyQDN607nNfo8nExK5rLV8ZArU2izCWUHUJ6ihDNA&s=10" alt="Imagem não localizada" width="20%" height="auto">
+    <!--img-fluid : Faz a imagem ser responsiva e ocupar toda a largura do contêiner-->
+    <!-- <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXrjyQDN607nNfo8nExK5rLV8ZArU2izCWUHUJ6ihDNA&s=10" alt="Imagem não localizada" width="50%" height="auto"> -->
+    <!--img-start : Faz a imagem flutuar para a esquerda-->
+    <!--<img class="float-start" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXrjyQDN607nNfo8nExK5rLV8ZArU2izCWUHUJ6ihDNA&s=10" alt="Imagem não localizada" width="50%" height="auto"> -->
+    <!--img-end : Faz a imagem flutuar para a direita-->
+    <!--<img class="float-end" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXrjyQDN607nNfo8nExK5rLV8ZArU2izCWUHUJ6ihDNA&s=10" alt="Imagem não localizada" width="50%" height="auto"> -->
+
+
+    <div class="d-inline-blocktext-truncate" style="width: 100%;">
+        Esse texto vai quebrar de acordo com o tamanho da tela, e se for muito grande, ele vai ser cortado.
+    </div>
+    <hr>
+    <div class="text-nowrap" style="width: 8rem;">
+        Esse texto não vai quebrar de jeito nenhum, mesmo que seja muito grande para caber na tela.
+    </div>
+    <hr>
+    <!--Formatação de texto com bootstrap
+    text-lowercase transforma em minusculo 
+    text-uppercase transforma em maiusculo
+    text-capitalize transforma a primeira letra de cada palavra em maiuscula-->
+    <div class="text-lowercase">
+        ESSE TEXTO TA TODO EM MINUSCULO.
+    </div>
+    <!--Formatação de espessura do paragrafo
+    fw-bold deixa o texto em negrito
+    fw-normal deixa o texto com espessura normal
+    fw-light deixa o texto com espessura fina
+    fw-italic deixa o texto em italico
+    -->
+    <div class="text-lowercase fw-bold">
+        ESSE TEXTO TA TODO EM NEGRITO.
+    </div>
+    <hr>
+    
+    <a class="btn btn-primary" href="#" role="button">Link</a>
+
+    <button type="button" class="btn btn-primary btn-lg w-100">Success</button>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
