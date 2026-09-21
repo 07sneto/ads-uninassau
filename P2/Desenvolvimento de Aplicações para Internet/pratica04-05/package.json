@@ -1,0 +1,8 @@
+{
+  "name": "pratica04-05",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "chalk": "^6.0.0"
+  }
+}
