@@ -2,7 +2,7 @@ package exercicios02TheHuxley;
 
 import java.util.Scanner;
 
-public class Exercicio10 {
+public class Exercicio09 {
 
 	public static void main(String[] args) {
 		
