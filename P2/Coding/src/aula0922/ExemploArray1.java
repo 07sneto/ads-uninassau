@@ -6,7 +6,7 @@ public class ExemploArray1 {
 		
 		// Instanciação
 		String [] listaDeNomes; // sintaxe atual (recomendada)
-		String listaDeNomes []; // sintaxe antiga
+		String listaDeNomesAntigo []; // sintaxe antiga
 		
 		// Inicialização
 		listaDeNomes = new String [10];
