@@ -21,10 +21,10 @@ Registro do aprendizado e disciplinas estudadas na graduação em Análise e Des
 
 ### Prática & Códigos
 * **Coding** — Desenvolvimento de algoritmos aplicados e resolução prática de desafios de programação.
-* **Desenvolvimento de Aplicações para Internet** — Estruturação e criação de aplicações para a web (HTML, CSS e JavaScript).
+* **Desenvolvimento de Aplicações para Internet** — Estruturação e criação de aplicações para a web.
 * **Front-End Frameworks** — Construção de interfaces dinâmicas e reativas utilizando frameworks modernos.
 
 ### Disciplinas Teóricas
-* **Atividades Práticas Interdisciplinares de Extensão I** — Projetos integradores focados em problemas e demandas reais.
-* **Banco de Dados** — Modelagem de dados (DER/MER), linguagem SQL (DDL, DML) e relacionamentos.
-* **Engenharia de Requisitos, Teste e Qualidade de Software** — Requisitos, regras de negócio, garantia de qualidade (QA) e testes.
+* **Atividades Práticas Interdisciplinares de Extensão I** — Projeto integrado focados em problemas e demandas reais.
+* **Banco de Dados** — Modelagem de dados, linguagem SQL e relacionamentos.
+* **Engenharia de Requisitos, Teste e Qualidade de Software** — Requisitos, regras de negócio, garantia de qualidade e testes.
