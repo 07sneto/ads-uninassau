@@ -8,7 +8,7 @@ public class Pessoa {
 	double peso;
 	double altura;
 	
-	//Construtor
+	// Construtor
 	public Pessoa(String novoNome, String novoEndereco, double novoPeso, double novoAltura) {
 		this.nome = novoNome;
 		this.endereco = novoEndereco;
@@ -16,6 +16,7 @@ public class Pessoa {
 		this.altura = novoAltura;
 	}
 
+	// Metodo/Funções
 	public void verDados() {
 		System.out.println("Nome: "+nome);
 		System.out.println("Peso: "+peso);
